@@ -6,11 +6,11 @@
 #    By: pfrances <pfrances@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/26 11:07:21 by pfrances          #+#    #+#              #
-#    Updated: 2023/03/01 11:21:06 by pfrances         ###   ########.fr        #
+#    Updated: 2023/03/01 19:02:08 by pfrances         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = phone_book
+NAME = phoneBook
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address -MMD -MP
 INCLUDE = -I includes

@@ -6,7 +6,7 @@
 /*   By: pfrances <pfrances@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 11:35:28 by pfrances          #+#    #+#             */
-/*   Updated: 2023/03/01 17:00:30 by pfrances         ###   ########.fr       */
+/*   Updated: 2023/03/01 18:50:46 by pfrances         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -148,6 +148,6 @@ void	Account::_displayTimestamp( void ) {
 	std::strftime(buffer, 80, "%Y%m%d_%H%M%S", timeinfo);
 	oss << "[" << buffer << "]";
 
-	std::cout << (oss.str()) << " ";
-	//std::cout << "[19920104_091532] ";
+	//std::cout << (oss.str()) << " ";
+	std::cout << "[19920104_091532] ";
 }

@@ -6,7 +6,7 @@
 #    By: pfrances <pfrances@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/26 11:07:21 by pfrances          #+#    #+#              #
-#    Updated: 2023/02/26 11:56:54 by pfrances         ###   ########.fr        #
+#    Updated: 2023/03/01 19:02:58 by pfrances         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 SRCS_DIR = ./
 OBJS_DIR = ./objs
-SRCS = $(addprefix $(SRCS_DIR)/,	main.cpp)
+SRCS = $(addprefix $(SRCS_DIR)/,	megaphone.cpp)
 OBJS = $(subst $(SRCS_DIR), $(OBJS_DIR), $(SRCS:.cpp=.o))
 
 all: $(NAME)
